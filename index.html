@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<script
+			defer
+			type="module"
+			src="./js/fetchData.js"></script>
+		<script
+			type="module"
+			src="./js/script.js"></script>
+		<script
+			type="module"
+			src="./js/elements.js"></script>
+		<link
+			rel="stylesheet"
+			href="./style/style.css" />
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com/"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Secular+One&display=swap"
+			rel="stylesheet" />
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="planet-page">
+			<div class="text">
+				<h1>SOLSYSTEMET</h1>
+				<h4>SOLARIS</h4>
+			</div>
+			<div class="sun planet"></div>
+			<div class="planets">
+				<div class="mercury planet"></div>
+				<div class="venus planet"></div>
+				<div class="earth planet"></div>
+				<div class="mars planet"></div>
+				<div class="jupiter planet"></div>
+				<div class="saturn planet"><div class="ring"></div></div>
+				<div class="uranus planet"></div>
+				<div class="neptune planet"></div>
+			</div>
+		</div>
+		<div
+			class="data"
+			style="display: none">
+			<div class="blue-one">
+				<div class="ring-one"></div>
+			</div>
+			<div class="blue-two">
+				<div class="ring-one"></div>
+			</div>
+			<div class="blue-three">
+				<div class="ring-one"></div>
+			</div>
+			<div class="info">
+				<h1 class="planet__name">JORDEN</h1>
+				<h2 class="latin">TELLUS</h2>
+				<p class="info__text">
+					Jorden är den största och mest kompakta av de inre planeterna. Jorden är den enda av
+					planeterna som konstaterats ha geologisk aktivitet och är även den enda planeten som med
+					säkerhet härbärgerar liv. Dess flytande hydrosfär är unik bland stenplaneterna och jorden
+					är också den enda planeten hos vilken plattektonik har observerats. Jordens atmosfär
+					skiljer sig markant från de andra planeternas, vilket förklaras av att närvaron av levande
+					organismer har förändrat atmosfären till att innehålla fritt syre, i dag motsvarande 21
+					procent.
+				</p>
+
+				<div class="facts">
+					<div class="top">
+						<div class="omkrets">
+							<h2 class="omkrets__header">OMKRETS</h2>
+							<p class="omkrets__info">40 075 km</p>
+						</div>
+						<div class="distans">
+							<h2 class="distans__header">KM FRÅN SOLEN</h2>
+							<p class="distans__km">149 600 000 km</p>
+						</div>
+					</div>
+					<div class="border"></div>
+					<div class="mid">
+						<div class="max-temp">
+							<h2 class="max-temp__header">MAX TEMPERATUR</h2>
+							<p class="max-temp__c">60C</p>
+						</div>
+						<div class="min-temp">
+							<h2 class="min-temp__header">MIN TEMPERATUR</h2>
+							<p class="min-temp__c">-50C</p>
+						</div>
+					</div>
+					<div class="border"></div>
+					<div class="bottom">
+						<div class="moons">
+							<h2 class="moons__moons">MÅNAR</h2>
+							<p class="moons_moon">Månen</p>
+						</div>
+						<button class="back">Return</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
