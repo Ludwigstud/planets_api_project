@@ -1,6 +1,8 @@
 import { getData } from "./fetchData.js";
 import { planets, displayData, changePage } from "./elements.js";
 
+//main js-file
+
 const applyInfo = async () => {
 	try {
 		const data = await getData();

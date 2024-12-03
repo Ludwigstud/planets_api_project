@@ -1,3 +1,5 @@
+//Module for all elements 
+
 export const planets = {
 	solen: document.querySelector(".sun"),
 	merkurius: document.querySelector(".mercury"),

@@ -1,5 +1,5 @@
 
-//Function to fetch data for key and then use it to fetch data for planets
+//Function to fetch data for auth-key and then use it to fetch data for planets
 
 export const getData = async () => {
 	try {
